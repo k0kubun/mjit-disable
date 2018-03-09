@@ -1,5 +1,7 @@
 # mjit.gem - RubyVM::MJIT.disable
 
+A gem to trigger SEGV.
+
 This is unofficial. Own your risk!
 
 ## Installation
