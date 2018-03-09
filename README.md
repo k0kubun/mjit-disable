@@ -22,7 +22,11 @@ Or install it yourself as:
 
 When you use this gem, you must start Ruby with --jit. Otherwise it segfaults.
 
+This gem adds following interfaces.
+
 ```rb
+require 'mjit'
+
 # This stops MJIT's internal profiler. Actually this doesn't stop MJIT compilation.
 RubyVM::MJIT.disable
 
