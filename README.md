@@ -1,4 +1,4 @@
-# MJIT
+# mjit.gem - RubyVM::MJIT.disable
 
 This is unofficial. Own your risk!
 
