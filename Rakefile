@@ -8,4 +8,4 @@ Rake::ExtensionTask.new('mjit') do |ext|
   ext.lib_dir = 'lib/mjit'
 end
 
-task :default => [:clobber, :compile, :spec]
+task :default => [:clobber, :compile]
